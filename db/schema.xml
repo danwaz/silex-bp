@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="propel" defaultIdMethod="native">
+	<table name="user" phpName="User">
+        <column name="id" type="integer" required="true" primaryKey="true" autoIncrement="true"/>
+        <column name="email" type="varchar" required="true" size="255"/>
+        <column name="username" type="varchar"  size="255"/>
+    </table>
+</database>

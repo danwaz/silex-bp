@@ -42,3 +42,9 @@ or simply
 * Make sure /cache is writable (if exists)
 
 	chmod -R 777 logs
+
+### Fix Propel
+
+Replace line 652 of Propel.php with:
+
+	$adapter = isset($conparams['adapter']) ? DBAdapter::factory($conparams['adapter']) : self::getDB($name);
