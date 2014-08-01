@@ -1,15 +1,3 @@
-# Rokkan-Akkorn - git@192.168.1.104:Rokkan-Akkorn.git
-Date Created: February 6, 2014, 6:45 pm
-
-## Post Commit Hook
-
-Location in repo that will be pushed to the webserver: '/'
-Webserver username:rokkandev password:Haxathon14
-
-## QA Notes
-
-(to be filled in by the Tech Lead)
-
 ## Setting Up Project
 
 ### Install Composer
