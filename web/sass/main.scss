@@ -1,10 +1,17 @@
+//To enable Sass Globbing, run `gem install sass-globbing`
+
 //Compass
 @import "compass";
 @import "susy";
 
 //Libs
-@import "libs/bootstrap";
-@import "libs/bootstrap-theme";
+@import "libs/*";
+
+//Global Styles
+@import "global";
+
+//Variables + Mixins
+@import "variables";
 
 //Partials
-@import "partials/global";
+@import "partials/*";

@@ -18,7 +18,6 @@
         "symfony/monolog-bridge": "~2.3",
         "symfony/twig-bridge": "~2.3",
         "swiftmailer/swiftmailer": "5.*",
-        "propel/propel-service-provider": "dev-master",
         "igorw/config-service-provider": "*"
     }
 }

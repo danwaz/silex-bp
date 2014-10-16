@@ -1,4 +1,4 @@
-define(['jquery', 'bootstrap.min', 'domReady!'], function($) {
+define(['jquery'], function($) {
 
 	console.log('global.js Loaded');
 

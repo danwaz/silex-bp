@@ -2,15 +2,8 @@ require.config({
 	baseUrl: '/js/libs',
 	paths : {
 		app: '../app',
-		jquery : 'jquery-2.1.0.min',
-		'async' : 'async',
-		'domReady' : 'domReady'
-	},
-	shim : {
-		'bootstrap.min' : {
-			deps : ['jquery'],
-			exports : 'bootstrap'
-		}
+		jquery : 'jquery-1.11.1.min',
+		'async' : 'async'
 	}
 });
 
